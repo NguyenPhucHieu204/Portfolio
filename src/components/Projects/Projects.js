@@ -57,7 +57,7 @@ function Projects() {
               description="Portfolio cá nhân (ReactJS). 
               Bao gồm: giới thiệu bản thân, kỹ năng, dự án, form liên hệ. 
               Đã deploy trên GitHub Pages."
-              ghLink="https://github.com/phuchieu/portfolio"
+              ghLink="https://github.com/NguyenPhucHieu204/Portfolio"
               demoLink="#"
             />
           </Col>
