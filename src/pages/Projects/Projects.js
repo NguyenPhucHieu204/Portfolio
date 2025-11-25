@@ -39,11 +39,11 @@ function Projects() {
             <ProjectCard
               imgPath={hotelImg}
               isBlog={false}
-              title="Hotel Management Website"
+              title="CMP Travel - Nền tảng đặt vé du lịch hỗ trợ AI"
               description="Website quản lý khách sạn (HTML, CSS, JS). 
-              Chức năng: Trang chủ, phòng trưng bày, đánh giá, blog.
-              Vai trò: Xây dựng giao diện và hiệu ứng người dùng, tối ưu trải nghiệm."
-              ghLink="https://github.com/NguyenPhucHieu204/tourism"
+              Điểm nổi bật: Đề xuất hỗ trợ bởi AI, Đề xuất hỗ trợ bởi AI, Xác thực quản trị nâng cao, Điều hướng cuộn thông minh, Ví CMP, Tìm kiếm khách sạn theo thời gian thực, Trợ lý AI Chatbot.
+              Vai trò: Nền tảng đặt vé du lịch toàn diện với các đề xuất AI, điều hướng cuộn thông minh, đánh giá hướng dẫn viên du lịch và xác thực quản trị nâng cao bằng nhận dạng khuôn mặt."
+              ghLink="https://github.com/hquocmanh0502/cmp-travel-ai-web"
               demoLink="#"
             />
           </Col>
