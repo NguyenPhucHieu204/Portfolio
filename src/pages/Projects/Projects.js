@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
+import Particle from "../../components/common/Particle";
 
-// Thay ảnh screenshot dự án bằng hình thật của bạn, lưu trong /Assets/Projects/
-import ecommerceImg from "../../Assets/Projects/Anh1.png";
-import hotelImg from "../../Assets/Projects/Anh2.png";
-import portfolioImg from "../../Assets/Projects/Anh3.png";
+// Thay ảnh screenshot dự án bằng hình thật của bạn, lưu trong /assets/Projects/
+import ecommerceImg from "../../assets/Projects/Anh1.png";
+import hotelImg from "../../assets/Projects/Anh2.png";
+import portfolioImg from "../../assets/Projects/Anh3.png";
 
 function Projects() {
   return (
@@ -14,10 +14,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Projects </strong>
+          Các <strong className="purple">Dự án </strong> của tôi
         </h1>
         <p style={{ color: "white" }}>
-          Here are some projects I have worked on during my study and practice.
+          Dưới đây là một số dự án tôi đã thực hiện trong quá trình học tập và thực hành.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {/* E-commerce Website */}

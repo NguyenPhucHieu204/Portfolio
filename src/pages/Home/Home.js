@@ -1,9 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
+
+// Components
+import Particle from "../../components/common/Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+
+// Assets
+import homeLogo from "../../assets/home-main.svg";
 
 function Home() {
   return (
@@ -22,7 +26,7 @@ function Home() {
 
               <h1 className="heading-name">
                 Tôi là
-                <strong className="main-name"> Nguyễn Phúc Hiếu</strong>
+                <strong className="main-name text-glow"> Nguyễn Phúc Hiếu</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>

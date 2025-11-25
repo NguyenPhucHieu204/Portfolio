@@ -1,9 +1,12 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="" target="_blank"></a>
+  Portfolio của Nguyễn Phúc Hiếu - Front-end Developer<br/>
+  <a href="https://nguyenphuchieu204.github.io/Portfolio" target="_blank">nguyenphuchieu204.github.io/Portfolio</a>
 </h2>
+
 <div align="center">
-  
+  <img src="https://img.shields.io/badge/React-17.0.2-61DAFB?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Bootstrap-5.1.3-7952B3?style=for-the-badge&logo=bootstrap" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript" />
 </div>
 
 <br/>
@@ -16,52 +19,91 @@
 
 </center>
 
-<h3 align="center">
+## Giới thiệu
 
-</h3>
-
-## TL;DR
+Portfolio cá nhân của **Nguyễn Phúc Hiếu** - Sinh viên Công nghệ Thông tin tại Đại học Phenikaa, đam mê phát triển Front-end với ReactJS và các công nghệ web hiện đại.
 
 
-## Built With
+## 🛠️ Công nghệ sử dụng
 
-This project was built using these technologies.
+Dự án này được xây dựng với:
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+- **React.js** - Thư viện JavaScript cho giao diện người dùng
+- **React Router** - Điều hướng trang
+- **React Bootstrap** - Framework CSS responsive
+- **React Icons** - Biểu tượng
+- **TypeWriter Effect** - Hiệu ứng đánh máy
+- **React TSParticles** - Hiệu ứng particle nền
+- **React PDF** - Hiển thị CV
+- **CSS3** - Styling
+- **VS Code** - Code Editor
+- **GitHub Pages** - Deploy
 
-## Features
+## ✨ Tính năng
 
-**📖 Multi-Page Layout**
+- 🏠 **Trang chủ** - Giới thiệu và typewriter effect
+- 👤 **Giới thiệu** - Thông tin cá nhân, kỹ năng, công cụ
+- 💼 **Dự án** - Danh sách các dự án đã thực hiện
+- 📄 **Resume** - CV/Resume có thể tải xuống
+- 📊 **GitHub Activity** - Biểu đồ hoạt động GitHub
+- 🎨 **Responsive Design** - Tương thích mọi thiết bị
+- ⚡ **Hiệu ứng đẹp mắt** - Particle effect, animations
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+## 🚀 Hướng dẫn cài đặt
 
-**📱 Fully Responsive**
+### Yêu cầu
 
-## Getting Started
+- Node.js (v14 trở lên)
+- npm hoặc yarn
+- Git
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+### Các bước cài đặt
 
-## 🛠 Installation and Setup Instructions
+1. **Clone repository**
+```bash
+git clone https://github.com/NguyenPhucHieu204/Portfolio.git
+cd Portfolio
+```
 
-1. Installation: `npm install`
+2. **Cài đặt dependencies**
+```bash
+npm install
+```
 
-2. In the project directory, you can run: `npm start`
+3. **Chạy ứng dụng**
+```bash
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+Mở [http://localhost:3000](http://localhost:3000) để xem trong trình duyệt.
 
-## Usage Instructions
+4. **Build cho production**
+```bash
+npm run build
+```
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+## 📝 Tùy chỉnh
 
-### Show your support
+Mở thư mục dự án và chỉnh sửa trong `/src/components/`:
 
-Give a ⭐ if you like this website!
+- **Home.js, Home2.js** - Thông tin trang chủ
+- **About/AboutCard.js** - Giới thiệu bản thân
+- **About/Techstack.js** - Kỹ năng công nghệ
+- **Projects/Projects.js** - Dự án của bạn
+- **Resume/ResumeNew.js** - CV/Resume
+
+## 👨‍💻 Liên hệ
+
+- **GitHub**: [@NguyenPhucHieu204](https://github.com/NguyenPhucHieu204)
+- **Portfolio**: [nguyenphuchieu204.github.io/Portfolio](https://nguyenphuchieu204.github.io/Portfolio)
+
+## 👏 Hỗ trợ
+
+Nếu bạn thích dự án này, hãy cho một ⭐ trên GitHub!
+
+---
+
+<p align="center">
+  Made with ❤️ by Nguyễn Phúc Hiếu
+</p>
 
